@@ -1,0 +1,8 @@
+"""Create an Empty dictionary .Allow four friends to enter their favourite language as valuew and key as thire
+names .assume that names are unique"""
+dic = { }
+dic["Nikhil"]= input("Enter Nikhil's Favourite Language :  ")
+dic["Prathmesh"]= input("Enter Prathmesh's Favourite Language :  ")
+dic["Raj"]= input("Enter Raj's Favourite Language :  ")
+dic["Kakya"]= input("Enter Kakya's Favourite Language :  ")
+print(dic)

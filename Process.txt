@@ -1,0 +1,49 @@
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ git add .
+
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ git commit -m" init commit"
+
+
+$ ssh-keygen -t ed25519 -C "bttengale@gmail.com"
+Generating public/private ed25519 key pair.
+
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|                 |
+|  . . .          |
+| o . . o         |
+|E o o . S o      |
+|.o o . . o o     |
+|. o o .*o.o +    |
+|   *.oBoO=o* +   |
+|  oo==+O++B=*    |
++----[SHA256]-----+
+
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 2031
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/bhimashankar_t/.ssh/id_ed25519 (bttengale@gmail.com)
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ clip < ~/.ssh/id_ed25519.pub
+
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ git remote add origin git@github.com:bttengale/bttengale.git
+
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ git remote -v
+
+
+bhimashankar_t@SI100NBK1333 MINGW64 /e/git hub (master)
+$ git push origin master
